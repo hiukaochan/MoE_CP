@@ -1,4 +1,4 @@
-data/
-results/
-figures/
+# data/
+# results/
+# figures/
 __pycache__/

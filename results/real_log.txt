@@ -1,0 +1,17 @@
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+bike: X (17379, 13), y (17379,)
+[Parallel(n_jobs=-1)]: Done  42 out of  50 | elapsed:  5.9min remaining:  1.1min
+[Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed:  6.9min finished
+      MoECP_coverage  MoECP_length  MoECP_median_length  MoECP_inf_frac  MoECP_wsc  SCP_coverage  SCP_length  SCP_median_length  SCP_inf_frac  SCP_wsc     epochs  t_train
+mean           0.903        1.4110               1.3574          0.0010     0.8667        0.8998      1.4928             1.4928           0.0   0.8540  1212.6000  67.9403
+std            0.010        0.2121               0.2937          0.0012     0.0413        0.0097      0.2325             0.2325           0.0   0.0470   405.2344  22.2677
+50%            0.904        1.3742               1.3401          0.0000     0.8667        0.9000      1.4279             1.4279           0.0   0.8656  1202.0000  66.4601
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+Downloading https://archive.ics.uci.edu/static/public/514/bias+correction+of+numerical+prediction+model+temperature+forecast.zip
+temperature: X (7590, 21), y (7590,)
+[Parallel(n_jobs=-1)]: Done  42 out of  50 | elapsed:  3.4min remaining:   38.6s
+[Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed:  4.2min finished
+      MoECP_coverage  MoECP_length  MoECP_median_length  MoECP_inf_frac  MoECP_wsc  SCP_coverage  SCP_length  SCP_median_length  SCP_inf_frac  SCP_wsc    epochs  t_train
+mean          0.9013        1.1263               1.1000          0.0017     0.8861        0.8983      1.1054             1.1054           0.0   0.8827  695.0400  36.5482
+std           0.0096        0.0538               0.0580          0.0013     0.0343        0.0100      0.0541             0.0541           0.0   0.0359  289.7879  14.9796
+50%           0.9023        1.1211               1.0898          0.0013     0.8909        0.8980      1.0968             1.0968           0.0   0.8869  675.0000  34.0283

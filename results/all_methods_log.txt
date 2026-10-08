@@ -1,0 +1,60 @@
+### synthetic setting 1
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  42 out of  50 | elapsed:  4.3min remaining:   49.0s
+[Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed:  4.6min finished
+      CQR_coverage  CQR_length  CQR_capped_length  CQR_inf_frac  CQR_time  CHR_coverage  CHR_length  CHR_capped_length  CHR_inf_frac  CHR_time  SCP+CC_coverage  SCP+CC_length  SCP+CC_capped_length  SCP+CC_inf_frac  SCP+CC_time  RLCP_coverage  RLCP_length  RLCP_capped_length  RLCP_inf_frac  RLCP_time  PCP_coverage  PCP_length  PCP_capped_length  PCP_inf_frac  PCP_time  MoECP_coverage  MoECP_length  MoECP_capped_length  MoECP_inf_frac  MoECP_time
+mean        0.8984     13.6850            13.6850           0.0    0.1807        0.8962     13.0757            13.0757           0.0    4.8198           0.8982        21.5370               21.5370              0.0       4.6198         0.9058      16.4179             16.4179            0.0     0.2001        0.9070     15.7551            17.0226        0.0274   30.8379          0.9085       11.7825              11.8695          0.0032     11.8120
+std         0.0198      0.8040             0.8040           0.0    0.0396        0.0184      0.8369             0.8369           0.0    1.0385           0.0152         1.8742                1.8742              0.0       0.4029         0.0180       0.8740              0.8740            0.0     0.0314        0.0512      2.7098             2.9116        0.0162    5.8888          0.0184        0.6052               0.5829          0.0035      1.3190
+50%         0.8970     13.7289            13.7289           0.0    0.1733        0.8940     13.0587            13.0587           0.0    4.7286           0.9000        21.1951               21.1951              0.0       4.5838         0.9070      16.2503             16.2503            0.0     0.1934        0.9230     16.2033            17.4448        0.0260   29.1754          0.9070       11.8063              11.8354          0.0020     11.6844
+### synthetic setting 2
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  42 out of  50 | elapsed:  3.9min remaining:   44.9s
+[Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed:  4.1min finished
+      CQR_coverage  CQR_length  CQR_capped_length  CQR_inf_frac  CQR_time  CHR_coverage  CHR_length  CHR_capped_length  CHR_inf_frac  CHR_time  SCP+CC_coverage  SCP+CC_length  SCP+CC_capped_length  SCP+CC_inf_frac  SCP+CC_time  RLCP_coverage  RLCP_length  RLCP_capped_length  RLCP_inf_frac  RLCP_time  PCP_coverage  PCP_length  PCP_capped_length  PCP_inf_frac  PCP_time  MoECP_coverage  MoECP_length  MoECP_capped_length  MoECP_inf_frac  MoECP_time
+mean        0.8993     12.9139            12.9139           0.0    0.1655        0.8984     12.2989            12.2989           0.0    4.1284           0.8944        19.5861               19.5861              0.0       4.2251         0.9066      15.8757             15.8757            0.0     0.1874        0.9162     15.7383            17.2114        0.0343   27.9440          0.9073       11.9632              12.0440          0.0025     11.2346
+std         0.0175      0.9222             0.9222           0.0    0.0248        0.0182      1.0268             1.0268           0.0    0.9531           0.0164         1.7174                1.7174              0.0       0.3169         0.0126       0.8637              0.8637            0.0     0.0214        0.0310      1.9488             2.6819        0.0338    3.7228          0.0148        0.7628               0.7805          0.0048      1.1936
+50%         0.8990     13.0052            13.0052           0.0    0.1587        0.8970     12.1719            12.1719           0.0    3.7287           0.8940        19.4171               19.4171              0.0       4.1555         0.9080      15.8681             15.8681            0.0     0.1869        0.9260     15.6449            17.0007        0.0290   27.8537          0.9060       11.8772              11.8812          0.0020     10.8895
+### bike
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+bike: X (17379, 13), y (17379,)
+[Parallel(n_jobs=-1)]: Done  42 out of  50 | elapsed: 28.1min remaining:  5.4min
+[Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed: 29.8min finished
+      CQR_coverage  CQR_length  CQR_capped_length  CQR_inf_frac  CQR_wsc  CQR_time  CHR_coverage  CHR_length  CHR_capped_length  CHR_inf_frac  CHR_wsc  CHR_time  SCP+CC_coverage  SCP+CC_length  SCP+CC_capped_length  SCP+CC_inf_frac  SCP+CC_wsc  SCP+CC_time  RLCP_coverage  RLCP_length  RLCP_capped_length  RLCP_inf_frac  RLCP_wsc  RLCP_time  PCP_coverage  PCP_length  PCP_capped_length  PCP_inf_frac  PCP_wsc  PCP_time  MoECP_coverage  MoECP_length  MoECP_capped_length  MoECP_inf_frac  MoECP_wsc  MoECP_time
+mean        0.9039      1.8559             1.8559           0.0   0.8701    0.4229        0.8988      1.6861             1.6861           0.0   0.8874   13.4984           0.8995         1.0823                1.0823              0.0      0.8889      75.2175         0.9142       1.1849              1.5560         0.1161    0.9060     1.0486        0.9102      1.1276             1.2248        0.0303   0.8997  158.0977          0.9002        1.0511               1.0555          0.0010     0.8514     89.4381
+std         0.0098      0.0577             0.0577           0.0   0.0528    0.0396        0.0115      0.0587             0.0587           0.0   0.0359    3.6488           0.0101         0.0740                0.0740              0.0      0.0293       2.9588         0.0096       0.0751              0.1110         0.0097    0.0261     0.0511        0.0091      0.0707             0.0874        0.0125   0.0269   25.0111          0.0096        0.0850               0.0850          0.0017     0.0418      3.1677
+50%         0.9030      1.8598             1.8598           0.0   0.8792    0.4157        0.8980      1.6905             1.6905           0.0   0.8912   12.1707           0.8987         1.0723                1.0723              0.0      0.8954      74.9567         0.9163       1.1835              1.5555         0.1170    0.9049     1.0384        0.9107      1.1232             1.2267        0.0293   0.9064  157.4842          0.8997        1.0504               1.0542          0.0000     0.8547     89.1326
+### temperature
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 10 concurrent workers.
+temperature: X (7590, 21), y (7590,)
+[Parallel(n_jobs=-1)]: Done  42 out of  50 | elapsed: 30.7min remaining:  5.9min
+[Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed: 32.0min finished
+      CQR_coverage  CQR_length  CQR_capped_length  CQR_inf_frac  CQR_wsc  CQR_time  CHR_coverage  CHR_length  CHR_capped_length  CHR_inf_frac  CHR_wsc  CHR_time  SCP+CC_coverage  SCP+CC_length  SCP+CC_capped_length  SCP+CC_inf_frac  SCP+CC_wsc  SCP+CC_time  RLCP_coverage  RLCP_length  RLCP_capped_length  RLCP_inf_frac  RLCP_wsc  RLCP_time  PCP_coverage  PCP_length  PCP_capped_length  PCP_inf_frac  PCP_wsc  PCP_time  MoECP_coverage  MoECP_length  MoECP_capped_length  MoECP_inf_frac  MoECP_wsc  MoECP_time
+mean        0.9024      1.4992             1.4992           0.0   0.8901    0.6864        0.8999      1.4789             1.4789           0.0   0.8875   12.2750           0.8995         1.2014                1.2014              0.0      0.8902     108.9873         0.9253       1.2400              1.9382         0.2743    0.9190     1.6423        0.9120      1.2365             1.3647        0.0507   0.8989  152.2465          0.9018        1.0722               1.0776          0.0022     0.8819     89.6505
+std         0.0105      0.0520             0.0520           0.0   0.0310    0.0538        0.0113      0.0481             0.0481           0.0   0.0353    3.3105           0.0103         0.0482                0.0482              0.0      0.0232       4.6688         0.0090       0.0428              0.1979         0.0166    0.0254     0.0719        0.0107      0.0514             0.0889        0.0183   0.0323   27.2238          0.0096        0.0425               0.0418          0.0016     0.0355      3.1287
+50%         0.9010      1.4888             1.4888           0.0   0.8856    0.6708        0.8987      1.4757             1.4757           0.0   0.8923   10.8456           0.9010         1.1964                1.1964              0.0      0.8894     107.9027         0.9253       1.2344              1.9485         0.2723    0.9207     1.6283        0.9127      1.2264             1.3611        0.0500   0.9020  146.9643          0.9017        1.0669               1.0730          0.0020     0.8850     89.2337
+### plot
+        experiment method  reps      coverage         length  median_length           wsc      inf_frac             time
+              bike    CQR    50 0.904 ± 0.010  1.856 ± 0.058  1.930 ± 0.121 0.870 ± 0.053 0.000 ± 0.000    0.423 ± 0.040
+              bike    CHR    50 0.899 ± 0.011  1.686 ± 0.059  1.754 ± 0.107 0.887 ± 0.036 0.000 ± 0.000   13.498 ± 3.649
+              bike SCP+CC    50 0.900 ± 0.010  1.082 ± 0.074  1.075 ± 0.074 0.889 ± 0.029 0.000 ± 0.000   75.217 ± 2.959
+              bike   RLCP    50 0.914 ± 0.010  1.185 ± 0.075  1.169 ± 0.087 0.906 ± 0.026 0.116 ± 0.010    1.049 ± 0.051
+              bike    PCP    50 0.910 ± 0.009  1.128 ± 0.071  1.139 ± 0.086 0.900 ± 0.027 0.030 ± 0.012 158.098 ± 25.011
+              bike  MoECP    50 0.900 ± 0.010  1.051 ± 0.085  0.980 ± 0.151 0.851 ± 0.042 0.001 ± 0.002   89.438 ± 3.168
+synthetic_setting1    CQR    50 0.898 ± 0.020 13.685 ± 0.804  8.736 ± 2.023           NaN 0.000 ± 0.000    0.181 ± 0.040
+synthetic_setting1    CHR    50 0.896 ± 0.018 13.076 ± 0.837  8.347 ± 1.738           NaN 0.000 ± 0.000    4.820 ± 1.039
+synthetic_setting1 SCP+CC    50 0.898 ± 0.015 21.537 ± 1.874 21.365 ± 1.903           NaN 0.000 ± 0.000    4.620 ± 0.403
+synthetic_setting1   RLCP    50 0.906 ± 0.018 16.418 ± 0.874  9.787 ± 1.290           NaN 0.000 ± 0.000    0.200 ± 0.031
+synthetic_setting1    PCP    50 0.907 ± 0.051 15.755 ± 2.710  9.477 ± 3.161           NaN 0.027 ± 0.016   30.838 ± 5.889
+synthetic_setting1  MoECP    50 0.908 ± 0.018 11.782 ± 0.605  6.525 ± 0.820           NaN 0.003 ± 0.004   11.812 ± 1.319
+synthetic_setting2    CQR    50 0.899 ± 0.017 12.914 ± 0.922  8.311 ± 1.704           NaN 0.000 ± 0.000    0.165 ± 0.025
+synthetic_setting2    CHR    50 0.898 ± 0.018 12.299 ± 1.027  7.971 ± 1.597           NaN 0.000 ± 0.000    4.128 ± 0.953
+synthetic_setting2 SCP+CC    50 0.894 ± 0.016 19.586 ± 1.717 19.447 ± 1.732           NaN 0.000 ± 0.000    4.225 ± 0.317
+synthetic_setting2   RLCP    50 0.907 ± 0.013 15.876 ± 0.864  9.478 ± 1.090           NaN 0.000 ± 0.000    0.187 ± 0.021
+synthetic_setting2    PCP    50 0.916 ± 0.031 15.738 ± 1.949  9.936 ± 4.269           NaN 0.034 ± 0.034   27.944 ± 3.723
+synthetic_setting2  MoECP    50 0.907 ± 0.015 11.963 ± 0.763  6.765 ± 1.031           NaN 0.002 ± 0.005   11.235 ± 1.194
+       temperature    CQR    50 0.902 ± 0.011  1.499 ± 0.052  1.453 ± 0.058 0.890 ± 0.031 0.000 ± 0.000    0.686 ± 0.054
+       temperature    CHR    50 0.900 ± 0.011  1.479 ± 0.048  1.440 ± 0.049 0.887 ± 0.035 0.000 ± 0.000   12.275 ± 3.311
+       temperature SCP+CC    50 0.899 ± 0.010  1.201 ± 0.048  1.185 ± 0.049 0.890 ± 0.023 0.000 ± 0.000  108.987 ± 4.669
+       temperature   RLCP    50 0.925 ± 0.009  1.240 ± 0.043  1.320 ± 0.057 0.919 ± 0.025 0.274 ± 0.017    1.642 ± 0.072
+       temperature    PCP    50 0.912 ± 0.011  1.237 ± 0.051  1.203 ± 0.057 0.899 ± 0.032 0.051 ± 0.018 152.246 ± 27.224
+       temperature  MoECP    50 0.902 ± 0.010  1.072 ± 0.043  1.042 ± 0.042 0.882 ± 0.036 0.002 ± 0.002   89.651 ± 3.129
